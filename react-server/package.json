@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "react-server --port 3000 --host 0.0.0.0",
+    "build": "react-server build",
+    "start": "react-server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lazarv/react-server": "^0.0.0-experimental-c280d96-20250301-671212f1"
+  }
+}

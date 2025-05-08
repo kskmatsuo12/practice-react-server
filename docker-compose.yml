@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+    container_name: react-server
+    ports:
+      - "8080:3000"
+    volumes:
+      - ./react-server:/home/node/app
+    environment:
+      - NODE_ENV=development
+    tty: true
+    stdin_open: true
